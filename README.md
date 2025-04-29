@@ -27,7 +27,7 @@
 | 구분 | 내용 |
 |------|------|
 | `raw-img/` | 클래스별 이미지 폴더 (ex. `dog`, `cat`, ...) |
-| `vit_end2end_project.py` | 전체 ViT 구현 및 학습 코드 |
+| `vit_implementation_colab.ipynb` | 전체 ViT 구현 및 학습 코드 |
 | `image_data.json` | 이미지 경로 및 라벨 매핑 정보 |
 | `train_ckpt/` | 학습된 모델 가중치 저장 디렉토리 |
 
@@ -58,5 +58,3 @@
 # 구글 드라이브에 이미지 데이터 준비
 # 예: /content/drive/MyDrive/Dataset/raw-img/dog/image1.jpeg ...
 
-# .py 또는 .ipynb 파일 실행
-python vit_end2end_project.py
